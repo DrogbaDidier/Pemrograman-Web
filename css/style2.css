@@ -1,0 +1,232 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    background-image: url("../img/bg_home.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 9px;
+    margin-bottom: 0px;
+}
+
+.user ul li {
+    float: left;
+    font-size: 14px;
+    background-color: #308fce;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.user li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+}
+
+.user li a:hover {
+    display: block;
+    text-decoration: none;
+    background-color: #8e44ad;
+    border-radius: 5px;
+}
+
+.navigasi {
+    background-color: black;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.navigasi h1 {
+    font-weight: bold;
+    font-size: 14pt;
+    color: white;
+    float: left;
+    padding: 0px;
+    padding-left: 10px;
+}
+
+.menu {
+    background-color: #0796b9;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-left: 21px;
+    padding-right: 21px;
+    background-color: #0796b9;
+}
+
+.menu li a:hover {
+    background-color: #2A1B3D;
+    color: white;
+    font-weight: bold;
+}
+
+.pembungkus {
+    box-sizing: border-box;
+}
+
+.header {
+    height: 300px;
+    background-image: url("../img/bg_serigala.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.header h1 {
+    padding-top: 130px;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.konten {
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 245, 0.801);
+    padding: 10px;
+    color: #2A1B3D;
+}
+
+.isiartikel p {
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.isiartikel img.gambarisiartikel {
+    width: 100px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.kolomkiri {
+    box-sizing: border-box;
+    width: 70%;
+    padding: 10px;
+    color: #2A1B3D;
+    float: left;
+}
+
+.kolomkanan {
+    box-sizing: border-box;
+    width: 28%;
+    float: right;
+    background-color: #c8b4e9b6;
+}
+
+.artikel {
+    margin-bottom: 50px;
+}
+
+.kolomkiri h1.judulartikel {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #44318D;
+}
+
+.kolomkiri p.tanggalposting {
+    font-size: 10px;
+    color: #D83F87;
+    margin-top: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.tombolselanjutnya {
+    background-color: #D83F87;
+    padding: 8px;
+}
+
+a.tombolselanjutnya {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover.tombolselanjutnya {
+    background-color: #2A1B3D;
+}
+
+.kolomkanan .judulsidebar {
+    background-color: #44318D;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.isisidebar {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.isisidebar .gambartentang {
+    width: 100px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.isisidebar ul {
+    line-height: 17px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.isisidebar ul li {
+    margin-bottom: 5px;
+}
+
+.isisidebar ul li a {
+    text-decoration: none;
+    color: #2A1B3D;
+}
+
+.isisidebar ul li a:hover {
+    color: #D83F87;
+}
+
+.artikelpopuler {
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}

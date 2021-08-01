@@ -1,0 +1,20 @@
+@media screen and (max-width:800px) {
+    body {
+        width: 100%;
+    }
+    .kolomkiri {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px;
+        color: #2A1B3D;
+        float: none;
+    }
+    .kolomkanan {
+        box-sizing: border-box;
+        width: 100%;
+        float: none;
+        background-color: #c8b4e9b6;
+    }
+
+    
+}
